@@ -8,7 +8,6 @@ html {
 }
 
 body {
-  background-color: #d05c2e;
   margin: 0;
 }
 
@@ -19,10 +18,12 @@ div {
   align-items: center;
 }
 
- h1 {
+h1 {
   color: #fff;
   font-size: 2rem;
   font-weight: bold;
+  margin: 0;
+  padding: .4rem 0;
 }
 
 .grain {
@@ -34,14 +35,15 @@ a {
   text-decoration: none;
   font-size: 1.125rem;
   padding: .5em 0;
-  display: flex;
+  display: block;
+  text-align: center;
 }
 
 a:hover {
-background-color: #a63f38;
+  background-color: #a63f38;
 }
 
-.links{
+.links {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
@@ -54,5 +56,8 @@ background-color: #a63f38;
   border-color: #a63f38;
   width: 33.333%;
   border: 1px solid #a63f38;
-  justify-content: space-between;
+}
+
+header {
+  background-color: #d05c2e;
 }

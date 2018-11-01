@@ -46,7 +46,6 @@ background-color: #a63f38;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
   padding-left: 0;
 }
 
@@ -55,4 +54,5 @@ background-color: #a63f38;
   border-color: #a63f38;
   width: 33.333%;
   border: 1px solid #a63f38;
+  justify-content: space-between;
 }

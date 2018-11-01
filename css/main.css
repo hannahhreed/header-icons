@@ -28,11 +28,24 @@ div {
   width: 40px;
 }
 
-.links {
+a {
   color: #fff;
+  text-decoration: none;
+  font-size: 1.125rem
+}
+
+.links{
+  list-style: none;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  list-style: none;
-  text-decoration: none;
+  justify-content: space-between;
+}
+
+.btn {
+
+}
+
+.btn hover {
+  background-color: #a63f38
 }

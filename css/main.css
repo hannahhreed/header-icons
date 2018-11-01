@@ -1,0 +1,38 @@
+html {
+  box-sizing: border-box;
+  font-family: Merriweather, serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #d05c2e;
+}
+
+div {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+ h2 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.grain {
+  width: 40px;
+}
+
+.links {
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  text-decoration: none;
+}
